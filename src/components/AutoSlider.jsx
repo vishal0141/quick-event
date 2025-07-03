@@ -32,7 +32,7 @@ const AutoSlider = () => {
   };
 
   return (
-    <div className="flex items-center justify-center p-2 sm:p-4 md:p-6 xl:px-[0px] px-[16px] max-w-[1150px] mx-auto rounded-[30px] ">
+    <div className="flex items-center justify-center md:py-[80px] py-[48px] p-2 sm:p-4 md:p-6 xl:px-[0px] px-[16px] max-w-[1150px] mx-auto rounded-[30px] ">
       <div 
         className="relative w-full max-w-7xl mx-auto"
         onMouseEnter={() => !isPaused && setIsPaused(true)}

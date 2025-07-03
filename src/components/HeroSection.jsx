@@ -8,7 +8,7 @@ const HeroSection = () => {
       initial={{ opacity: 0, y: 30 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6 }}
-      className="w-full h-[350px] mb-6 text-center py-16 px-4 sm:px-6 md:px-12 lg:px-24 xl:px-32"
+      className="w-full h-[350px]  text-center md:py-[80px] py-[48px]   px-4 sm:px-6 md:px-12 lg:px-24 xl:px-32"
     >
       {/* Heading */}
       <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-[#0E3044] leading-tight">

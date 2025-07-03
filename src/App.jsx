@@ -12,7 +12,7 @@ export default function App() {
     <>
     <Header/>
     <HeroSection/>
-    <div className="w-full  bg-white shadow-xl">
+    <div className="w-full ">
        <AutoSlider/>
     </div>
     <Slide2/>

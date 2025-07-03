@@ -49,7 +49,7 @@ const cardData = [
 
 export default function Swiper() {
   return (
-    <section className="w-full mt-10 scroll-smooth pb-20 space-y-10">
+    <section className="w-full mt-10 scroll-smooth pb-20 xl:px-[0px] px-[16px] space-y-10">
       {cardData.map((card, index) => {
         const baseWidth = 1100;
         const reduction = index * 32;

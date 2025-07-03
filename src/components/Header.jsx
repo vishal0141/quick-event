@@ -58,7 +58,7 @@ export default function QuickEventsHeader() {
   return (
     <div className="bg-white">
       {/* Top Bar */}
-      <div className="bg-[#0E3044] from-slate-800 to-slate-900 text-white py-3 px-4">
+      <div className="bg-[#0E3044] sm:block hidden from-slate-800 to-slate-900 text-white py-3 px-4">
         <div className="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-start sm:items-center text-sm space-y-2 sm:space-y-0">
           {/* Left Links */}
           <div className="flex text-[16px] flex-col ml-5 sm:flex-row items-start sm:items-center space-y-1 sm:space-y-0 sm:space-x-6">

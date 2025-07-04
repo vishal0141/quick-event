@@ -32,7 +32,7 @@ export default function EventTechLanding() {
         </div>
 
         {/* Right Side Image */}
-        <div className="w-full sm:max-w-[400px] lg:max-w-[428px] h-[370px] sm:h-[350px] p-[16px] lg:h-[400px]">
+        <div className="w-full px-[16px]">
           <img
             src="/images/rectLeft.png"
             alt="img"

@@ -11,13 +11,12 @@ const HeroSection = () => {
       className="w-full h-[350px]  text-center md:py-[80px] py-[48px]   px-4 sm:px-6 md:px-12 lg:px-24 xl:px-32"
     >
       {/* Heading */}
-      <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-[#0E3044] leading-tight">
-        Smart Registration for Smarter Events <br className="hidden md:block" />
-        Event Technology Needs
+      <h1 style={{fontFamily:'Poppinssemibold'}} className="text-2xl  sm:text-3xl md:text-4xl lg:text-5xl font-bold text-[#0E3044] leading-tight">
+        Smart Registration for Smarter Events
       </h1>
 
       {/* Subheading */}
-      <p className="mt-4 text-gray-600 text-base sm:text-lg md:text-xl max-w-3xl mx-auto">
+      <p  className="mt-4 text-gray-600 text-base sm:text-lg md:text-xl max-w-3xl mx-auto">
         Ensure Flawless Events with Our Advanced Registration, Check-In, and Badging Technology
       </p>
 

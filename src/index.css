@@ -1,10 +1,22 @@
 @import "tailwindcss";
+
+/* src/fonts.css ya src/App.css */
+@font-face {
+  font-family: 'PoppinsSemiBold';
+  src: url('./fonts/Poppins SemiBold 600.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+
+
 html {
   scroll-behavior: smooth;
 }
 
 body{
   background: #F3F4F6;
+  /* font-family: 'PoppinsSemiBold', sans-serif; */
 }
 
 .card{

@@ -86,13 +86,9 @@ export default function QuickEventsHeader() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-20">
             {/* Logo */}
-            <div className="flex items-center">
-              <div className="flex-shrink-0">
-                <div className="text-2xl font-bold">
-                  <span className="text-slate-800">Quick</span>
-                  <span className="text-green-500">Events</span>
-                </div>
-              </div>
+            <div className="flex items-center flex-start sm:w-[170px] w-[110px]">
+            
+                  <img src="/images/newlogo.svg" className='h-full' alt="" />
             </div>
 
             {/* Desktop Navigation */}

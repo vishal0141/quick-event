@@ -89,7 +89,7 @@ export default function Swiper() {
 
                 <div className="mt-6 flex flex-col sm:flex-row gap-6 sm:gap-10 items-center sm:items-start">
                   <div className="w-full sm:w-[50%]">
-                    <p className="text-[#0E3044] text-[22px] sm:text-[26px] font-semibold">
+                    <p className="text-[#0E3044] text-[22px] sm:text-[26px] font-semibold" style={{fontFamily:'Poppinssemibold'}}>
                       {card.subtitle}
                     </p>
 

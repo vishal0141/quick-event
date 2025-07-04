@@ -11,7 +11,7 @@ const partners = [
 
 const ContinuousSlider = () => {
   return (
-    <div className="w-full flex flex-col items-center justify-center gap-4 sm:gap-6 lg:gap-10 px-4 my-8 sm:my-12 lg:my-20">
+    <div className="w-full flex flex-col items-center justify-center gap-4 sm:gap-6 lg:gap-10 px-4 my-8 sm:mt-12 lg:my-20">
       {/* Heading */}
       <h2 className="text-xl sm:text-2xl font-semibold text-gray-700 italic">
         Our Network Trusted By

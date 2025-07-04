@@ -15,7 +15,7 @@ export default function EventTechLanding() {
         
         {/* Left Side */}
         <div 
-          className="flex items-center justify-center w-full h-[250px] sm:h-[350px] lg:h-[400px] lg:w-[700px] bg-cover bg-center relative"
+          className="flex items-center justify-center h-[250px] sm:h-[350px] lg:h-[400px] lg:w-[700px] bg-cover bg-center relative"
           style={{ backgroundImage: "url('/images/Rectangl.svg')", 
             backgroundSize: 'cover' , backgroundPosition:"center"
 
@@ -32,11 +32,11 @@ export default function EventTechLanding() {
         </div>
 
         {/* Right Side Image */}
-        <div className="w-full px-[16px]">
+        <div className=" w-full sm:max-w-[400px] lg:max-w-[428px] h-[370px] sm:h-[350px] p-[30px] lg:h-[400px]">
           <img
             src="/images/rectLeft.png"
             alt="img"
-            className=" h-full rounded-xl"
+            className=" border h-full rounded-xl"
           />
         </div>
       </div>

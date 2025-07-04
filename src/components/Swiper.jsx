@@ -83,7 +83,7 @@ export default function Swiper() {
                   {card.step}
                 </div>
 
-                <div className="text-[24px] sm:text-[30px] text-green-600 tracking-wider text-center mt-4">
+                <div className="text-[24px] sm:text-[30px] sm:text-3xl md:text-4xl lg:text-5xl text-green-600 tracking-wider text-center mt-4">
                   {card.title}
                 </div>
 
@@ -110,7 +110,7 @@ export default function Swiper() {
                     <img
                       src={card.image}
                       alt={`Image for ${card.title}`}
-                      className="w-full h-auto max-h-[365px] rounded-[10px] object-cover"
+                      className=" rounded-[10px] object-cover"
                     />
                   </div>
                 </div>
